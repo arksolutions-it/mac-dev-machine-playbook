@@ -1,0 +1,44 @@
+---
+username: CHANGE_HERE
+
+repo: []
+
+repo_arksolutions_it:
+  - arksolutions.it
+  - arksolutions.it-finance
+  - arksolutions.it-proxy
+  - base-next-js
+  - base-strapi
+  - module-strapi
+  - newearswickmobility.co.uk
+  - responsively-app
+  - strapi-plugin-permalinks
+  - tableplus
+
+homebrew_installed_packages:
+  - awscli
+  - fzf
+  - git
+  - node
+  - yarn
+  - stow
+
+homebrew_taps: []
+
+homebrew_cask_appdir: /Applications
+
+homebrew_cask_apps:
+  - alfred
+  - appcleaner
+  - audacity
+  - docker
+  - nextcloud
+  - responsively
+  - slack
+  - tableplus
+  - whatsapp
+  - zoom
+
+pip_packages:
+  - name: robotframework-lsp
+    state: present
