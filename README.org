@@ -15,10 +15,13 @@ Uses [[https://www.ansible.com/][Ansible]] to automate development machine setup
    #+end_src
 3. Clone or download this repository to your local drive.
    #+begin_src bash
-     git clone git@github.com:arksolutions-it/mac-dev-machine-playbook.git
+     git clone https://github.com/arksolutions-it/mac-dev-machine-playbook.git
    #+end_src
 4. Provision
    #+begin_src bash
      make macos
    #+end_src
-
+5. Install oh-my-zsh
+   #+begin_src bash
+     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   #+end_src
