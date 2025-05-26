@@ -20,8 +20,8 @@ homebrew_installed_packages:
   - fzf
   - git
   - node
-  - yarn
   - stow
+  - yarn
 
 homebrew_taps: []
 
@@ -36,6 +36,8 @@ homebrew_cask_apps:
   - responsively
   - slack
   - tableplus
+  - visual-studio-code
+  - warp
   - whatsapp
   - zoom
 
