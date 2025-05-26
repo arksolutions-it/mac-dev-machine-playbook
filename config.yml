@@ -40,7 +40,3 @@ homebrew_cask_apps:
   - warp
   - whatsapp
   - zoom
-
-pip_packages:
-  - name: robotframework-lsp
-    state: present
