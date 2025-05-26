@@ -1,4 +1,4 @@
-* arksolutions.it-/dev-machine
+* arksolutions.it/mac-dev-machine-playbook
 Uses [[https://www.ansible.com/][Ansible]] to automate development machine setup from scratch for arksolutions.it software engineers.
 
 ** Provisioning
@@ -9,12 +9,13 @@ Uses [[https://www.ansible.com/][Ansible]] to automate development machine setup
 2. Install [[https://docs.ansible.com/ansible/latest/installation_guide/index.html][Ansible]]
    #+begin_src conf
      export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
+     export PATH="$HOME/Library/Python/3.9/bin:$PATH"
      sudo pip3 install --upgrade pip
      pip3 install ansible
    #+end_src
 3. Clone or download this repository to your local drive.
    #+begin_src bash
-     git clone https://github.com/arksolutions.it/dev-machine-playbook.git
+     git clone git@github.com:arksolutions-it/mac-dev-machine-playbook.git
    #+end_src
 4. Provision
    #+begin_src bash
